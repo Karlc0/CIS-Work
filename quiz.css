@@ -1,0 +1,52 @@
+/*  Author: Karl Cesar
+    Date:   11/24/23
+
+    Filename: quiz.hmtl*/
+
+    body {
+        background-color: yellowgreen;
+    }
+    
+    .panel {
+        margin-top: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: navy;
+    }
+    
+    .question {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .options {
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 80PX;
+        position: fixed;
+        top: 40%;
+        left: 40%;
+    }
+    
+    button {
+        margin-right: .5px;
+        margin-top: 8%;
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: #4f98c2;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #score {
+        font-size: 30px;
+        color: darkslategray;
+    }
+    
